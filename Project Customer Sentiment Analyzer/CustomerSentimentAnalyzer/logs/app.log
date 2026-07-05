@@ -1,0 +1,130 @@
+2026-07-05 12:47:17 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 12:47:17 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: No module named 'nltk'
+2026-07-05 12:47:17 | ERROR    | Main | Fatal startup error: No module named 'textblob'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\main.py", line 81, in main
+    from models.sentiment_model import RuleBasedSentimentEngine  # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\models\sentiment_model.py", line 16, in <module>
+    from textblob import TextBlob
+ModuleNotFoundError: No module named 'textblob'
+
+2026-07-05 12:48:32 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 12:49:22 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 12:49:25 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: File is not a zip file
+2026-07-05 12:49:25 | ERROR    | Main | Fatal startup error: No module named 'vaderSentiment'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\main.py", line 81, in main
+    from models.sentiment_model import RuleBasedSentimentEngine  # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\models\sentiment_model.py", line 17, in <module>
+    from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+ModuleNotFoundError: No module named 'vaderSentiment'
+
+2026-07-05 12:50:46 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 12:50:46 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 12:50:48 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: File is not a zip file
+2026-07-05 12:50:48 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: File is not a zip file
+2026-07-05 12:50:49 | ERROR    | Main | Fatal startup error: No module named 'pandas'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\main.py", line 82, in main
+    from models.ml_model import MLSentimentEngine
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\models\ml_model.py", line 18, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+2026-07-05 12:50:49 | ERROR    | Main | Fatal startup error: No module named 'pandas'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\main.py", line 82, in main
+    from models.ml_model import MLSentimentEngine
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\models\ml_model.py", line 18, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+2026-07-05 12:51:08 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 12:51:08 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 12:51:10 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: File is not a zip file
+2026-07-05 12:51:10 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: File is not a zip file
+2026-07-05 12:51:10 | ERROR    | Main | Fatal startup error: No module named 'pandas'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\main.py", line 82, in main
+    from models.ml_model import MLSentimentEngine
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\models\ml_model.py", line 18, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+2026-07-05 12:51:10 | ERROR    | Main | Fatal startup error: No module named 'pandas'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\main.py", line 82, in main
+    from models.ml_model import MLSentimentEngine
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\models\ml_model.py", line 18, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+2026-07-05 12:54:15 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 12:54:17 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: File is not a zip file
+2026-07-05 12:54:19 | ERROR    | Main | Fatal startup error: No module named 'sklearn'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\main.py", line 82, in main
+    from models.ml_model import MLSentimentEngine
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\models\ml_model.py", line 19, in <module>
+    from sklearn.ensemble import RandomForestClassifier
+ModuleNotFoundError: No module named 'sklearn'
+
+2026-07-05 12:57:17 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 12:57:26 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: File is not a zip file
+2026-07-05 12:57:27 | INFO     | SentimentAnalyzer | [SYSTEM] Trained 'Naive Bayes' ML model. Test accuracy: 92.55%
+2026-07-05 12:57:27 | ERROR    | Main | Fatal startup error: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\main.py", line 92, in main
+    from ui.dashboard import MainWindow
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\ui\dashboard.py", line 33, in <module>
+    from utils.report_generator import generate_pdf_report, ReportError
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\utils\report_generator.py", line 13, in <module>
+    import matplotlib
+ModuleNotFoundError: No module named 'matplotlib'
+
+2026-07-05 12:59:29 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 12:59:40 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: File is not a zip file
+2026-07-05 12:59:40 | INFO     | MLModel | Loaded cached 'Naive Bayes' model (accuracy=0.93).
+2026-07-05 12:59:48 | ERROR    | Main | Fatal startup error: No module named 'reportlab'
+Traceback (most recent call last):
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\main.py", line 92, in main
+    from ui.dashboard import MainWindow
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\ui\dashboard.py", line 33, in <module>
+    from utils.report_generator import generate_pdf_report, ReportError
+  File "C:\Users\Lenovo\Downloads\neew\CustomerSentimentAnalyzer\utils\report_generator.py", line 17, in <module>
+    from reportlab.lib import colors
+ModuleNotFoundError: No module named 'reportlab'
+
+2026-07-05 13:00:50 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 13:00:57 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: File is not a zip file
+2026-07-05 13:00:57 | INFO     | MLModel | Loaded cached 'Naive Bayes' model (accuracy=0.93).
+2026-07-05 13:00:59 | INFO     | SentimentAnalyzer | [SYSTEM] Application started.
+2026-07-05 13:01:00 | INFO     | SentimentAnalyzer | [SYSTEM] Main window displayed.
+2026-07-05 13:03:45 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 13:03:52 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: File is not a zip file
+2026-07-05 13:03:52 | INFO     | MLModel | Loaded cached 'Naive Bayes' model (accuracy=0.93).
+2026-07-05 13:03:55 | INFO     | SentimentAnalyzer | [SYSTEM] Application started.
+2026-07-05 13:03:55 | INFO     | SentimentAnalyzer | [SYSTEM] Main window displayed.
+2026-07-05 13:05:20 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 13:05:25 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: File is not a zip file
+2026-07-05 13:05:25 | INFO     | MLModel | Loaded cached 'Naive Bayes' model (accuracy=0.93).
+2026-07-05 13:05:27 | INFO     | SentimentAnalyzer | [SYSTEM] Application started.
+2026-07-05 13:05:28 | INFO     | SentimentAnalyzer | [SYSTEM] Main window displayed.
+2026-07-05 13:07:07 | INFO     | SentimentAnalyzer | [IMPORT] Loaded 150 rows from CSV file: sample_comments.csv
+2026-07-05 13:07:08 | ERROR    | SentimentAnalyzer | [ERROR] Input Error: No text was entered.
+2026-07-05 13:07:18 | INFO     | SentimentAnalyzer | [IMPORT] Loaded 1 manually entered comment(s).
+2026-07-05 13:07:41 | ERROR    | SentimentAnalyzer | [ERROR] No Analysis Yet: Please run sentiment analysis before generating a report.
+2026-07-05 13:09:05 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 13:09:10 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: File is not a zip file
+2026-07-05 13:09:10 | INFO     | MLModel | Loaded cached 'Naive Bayes' model (accuracy=0.93).
+2026-07-05 13:09:12 | INFO     | SentimentAnalyzer | [SYSTEM] Application started.
+2026-07-05 13:09:12 | INFO     | SentimentAnalyzer | [SYSTEM] Main window displayed.
+2026-07-05 13:09:27 | INFO     | SentimentAnalyzer | [IMPORT] Loaded 1 manually entered comment(s).
+2026-07-05 13:29:47 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 13:30:40 | INFO     | SentimentAnalyzer | [SYSTEM] Splash screen displayed, loading application modules.
+2026-07-05 13:31:02 | WARNING  | Preprocessing | NLTK unavailable, falling back to built-in tools: File is not a zip file
+2026-07-05 13:31:06 | INFO     | MLModel | Loaded cached 'Naive Bayes' model (accuracy=0.93).
+2026-07-05 13:31:14 | INFO     | SentimentAnalyzer | [SYSTEM] Application started.
+2026-07-05 13:31:15 | INFO     | SentimentAnalyzer | [SYSTEM] Main window displayed.
