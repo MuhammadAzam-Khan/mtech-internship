@@ -1,0 +1,9 @@
+# High-Dimensional Data Explorer (v2) -- required packages
+# Install with:  pip install -r requirements.txt
+#
+# Note: tkinter is NOT listed here because it is not a pip package --
+# it comes built into Python. See README.md if "import tkinter" fails.
+
+pandas>=1.5
+matplotlib>=3.5
+scikit-learn>=1.1
